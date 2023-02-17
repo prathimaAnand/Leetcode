@@ -1,3 +1,6 @@
+#solution 1
+#time & memory complexity = O(s+t)
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         # to check if the lengths are same, if not then its not a anagram at all
@@ -21,8 +24,21 @@ class Solution:
         return True
 
 """
-code 2 
+solution 2 
 "Counter" data structure in python that automatically counts 
+return Counter(s) == Counter(T)
+'==' does the work of end for loop in above code
+#time & memory complexity = O(s+t)
 
 """
+
+"""
+solution 3 - for memory O(1)
+useing sorting
+bubble sort uses O(nlogn) but time is O(n^2) 
+good ones - O(nlogn) 
+memory - O(n) sometimes O(1)
+"""
+
+
         
