@@ -1,3 +1,6 @@
+link: https://leetcode.com/problems/two-sum/submissions/900832539/
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashStore = {}
