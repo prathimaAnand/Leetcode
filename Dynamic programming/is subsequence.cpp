@@ -1,4 +1,4 @@
-https://leetcode.com/problems/is-subsequence/submissions/903302538/
+// https://leetcode.com/problems/is-subsequence/submissions/903302538/
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
@@ -17,5 +17,5 @@ public:
     }
 };
 
-runtime = O ms
-memo = 6.4 MB
+// runtime = O ms
+// memo = 6.4 MB
