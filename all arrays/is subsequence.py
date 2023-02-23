@@ -16,8 +16,8 @@ class Solution:
         else :
             False
         
-Memory = 14 MB beats = 76%
-Runtime = 46 ms = 16.5%
+# Memory = 14 MB beats = 76%
+# Runtime = 46 ms = 16.5%
             
 #  Simplified version
 
@@ -34,5 +34,5 @@ class Solution:
 
         return True if i == len(s) else False
 
-      Memory = 13.8 MB beats = 98.5%
-Runtime = 44 ms = %
+#       Memory = 13.8 MB beats = 98.5%
+# Runtime = 44 ms = %
