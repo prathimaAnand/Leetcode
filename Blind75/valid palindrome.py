@@ -14,4 +14,5 @@ class Solution:
 #Solution 2 : without using built-in functions 
 # constant memory O(1) 
 # using 2 pointers
+# using ASCII values for alphanumeric
                  
