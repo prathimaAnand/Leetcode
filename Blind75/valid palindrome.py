@@ -11,5 +11,7 @@ class Solution:
                 NewString += i.lower()
         return NewString == NewString[::-1] # extra memory
     
-#Solution 2 : without using built-in functions
+#Solution 2 : without using built-in functions 
+# constant memory O(1) 
+# using 2 pointers
                  
