@@ -1,5 +1,7 @@
 https://leetcode.com/problems/valid-palindrome/submissions/908115575/
 
+#Solution 1 : using built-in functions
+    
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         NewString = ''
