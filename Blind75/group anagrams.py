@@ -7,6 +7,7 @@ Concept: Using Hashmap
 => hashmap will have group of anagrams with respective single key a/c to count of letters
 """
 
+# Memory = O(m.n)
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
