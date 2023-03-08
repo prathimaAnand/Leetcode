@@ -1,4 +1,4 @@
-https://leetcode.com/problems/group-anagrams/submissions/911238146/
+#link:https://leetcode.com/problems/group-anagrams/submissions/911238146/
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
