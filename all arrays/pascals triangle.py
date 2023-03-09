@@ -1,4 +1,8 @@
+#link: https://leetcode.com/problems/pascals-triangle/submissions/911766913/
 
+'''
+time & memory = O(n)
+'''
 
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
