@@ -2,6 +2,11 @@
 
 '''
 time & memory = O(n)
+Concept = 
+two pointers
+2D array
+adding zeros to both ends
+creating pascal rows
 '''
 
 class Solution:
