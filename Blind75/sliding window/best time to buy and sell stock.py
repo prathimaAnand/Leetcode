@@ -1,3 +1,5 @@
+# link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/912960710/
+
 ''' Concept : two pointers L & R
 L = Buy
 R = Sell
