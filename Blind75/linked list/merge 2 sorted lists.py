@@ -1,4 +1,5 @@
 #link : https://leetcode.com/problems/merge-two-sorted-lists/
+#yet to solve 1 test case
 
 '''
 Concept:
@@ -39,6 +40,9 @@ class Solution:
     
     
 '''
+#neetcode solution
+
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
