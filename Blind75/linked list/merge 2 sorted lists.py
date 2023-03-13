@@ -1,6 +1,12 @@
 #link : https://leetcode.com/problems/merge-two-sorted-lists/
 
-
+'''
+Concept:
+Going through both the list at the same time
+and inserting the gratest among 2
+if the list is longer than the other ->> insert the rest of the list
+because lists are sorted
+'''
 
 
 # Definition for singly-linked list.
