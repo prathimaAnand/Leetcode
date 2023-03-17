@@ -1,3 +1,6 @@
+# link : https://leetcode.com/problems/linked-list-cycle/submissions/916583584/
+
+'''
 2 ways to solve
 1. Hashset 
 storing node as it is, it will be used as objects
@@ -11,6 +14,7 @@ slow and fast pointers
 slow moves 1 step
 fast moves 2 step
 fast pointer will always meet slow pointer at the same time
+'''
 
 # Definition for singly-linked list.
 # class ListNode:
