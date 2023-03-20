@@ -3,7 +3,9 @@
 '''
 technique: Depth frist search
 in recrusive way
-
+root remains same
+its children is swaped
+then next set of tree is swaped
 '''
 
 # Definition for a binary tree node.
