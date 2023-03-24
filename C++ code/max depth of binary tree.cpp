@@ -1,5 +1,13 @@
 # link: https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/921024821/
 
+/*
+Three ways to solve
+1. RECURSIVE DFS
+
+
+*/
+// 1. RECURSIVE DFS
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
