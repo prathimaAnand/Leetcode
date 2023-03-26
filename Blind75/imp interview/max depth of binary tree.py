@@ -6,6 +6,10 @@ Three ways to solve
 1. Recursive DFS
 2. BFS
 insert root in the queue and replace it with its children nad continue until tree is empty
+Deque (Doubly Ended Queue) in Python is implemented using the module “collections“. 
+Deque is preferred over a list in the cases where we need quicker append and pop oper0ations from both the ends of the container, as deque provides an O(1) time complexity for append and pop operations as compared to a list that provides O(n) time complexity.
+BFS uses "deque"
+
 3. Iterative DFS
 
  
