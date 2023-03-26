@@ -3,6 +3,10 @@
 Time = O(n)
 Memory ~ O(n) if tree is not a balanced tree
 Three ways to solve
+1. Recursive DFS
+2. BFS
+3. Iterative DFS
+
  
 '''
 # 1. RECURSIVE DFS
