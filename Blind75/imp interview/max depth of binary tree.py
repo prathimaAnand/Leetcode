@@ -5,6 +5,7 @@ Memory ~ O(n) if tree is not a balanced tree
 Three ways to solve
 1. Recursive DFS
 2. BFS
+insert root in the queue and replace it with its children nad continue until tree is empty
 3. Iterative DFS
 
  
