@@ -1,6 +1,9 @@
 # link : https://leetcode.com/problems/maximum-depth-of-binary-tree/description/
 '''
+Time = O(n)
+Memory ~ O(n) if tree is not a balanced tree
 Three ways to solve
+ 
 '''
 # 1. RECURSIVE DFS
 
