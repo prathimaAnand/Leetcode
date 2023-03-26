@@ -11,6 +11,7 @@ Deque is preferred over a list in the cases where we need quicker append and pop
 BFS uses "deque"
 
 3. Iterative DFS
+DFS without recursion
 
  
 '''
@@ -49,5 +50,7 @@ class Solution:
                     q.append(node.right)
             level += 1
         return level
+        
+ # 3. Iterative DFS
 
 
