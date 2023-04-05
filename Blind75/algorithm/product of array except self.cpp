@@ -1,3 +1,11 @@
+// 
+/*
+prefix and post fix technique but not using arrays to store them 
+memory - O(1)
+Time - O(n)
+
+*/
+
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
