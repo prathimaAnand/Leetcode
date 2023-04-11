@@ -1,2 +1,7 @@
 /* Problem statement: The array is split into half and flipped
-
+A target value is given and we need to return index of the target value.
+Trivial method is comapre every element with target and return the one that matches.
+Memory - O(n)
+We are taking an advantage of the roatated sorted array to fnd the target value.
+Using Binary sorting
+*/
