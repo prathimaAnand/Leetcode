@@ -6,4 +6,7 @@ We are taking an advantage of the roatated sorted array to fnd the target value.
 Using Binary sorting
 WKT that binary search has 3 pointers - left, middle and right
 left is always <= right
+
+LOGIC:
+
 */
