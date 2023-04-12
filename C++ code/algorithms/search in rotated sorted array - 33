@@ -1,0 +1,39 @@
+/* Problem statement: The array is split into half and flipped
+A target value is given and we need to return index of the target value.
+Trivial method is comapre every element with target and return the one that matches.
+Memory - O(n)
+We are taking an advantage of the roatated sorted array to fnd the target value.
+Using Binary sorting
+WKT that binary search has 3 pointers - left, middle and right
+left is always <= right
+*/
+
+class Solution {
+public:
+    int search(vector<int>& nums, int target) {
+        int l = 0, r = nums.size()-1, mid = 0;
+
+        while (l <= r){
+            mid = (l+r)/2;
+            if (target == nums[mid])
+                return mid;
+            
+            // left sorted portion
+            if(nums[l] <= nums[mid]){
+                if(target > nums[mid] || target < nums[l])
+                    l = mid + 1;
+                else
+                    r = mid - 1;
+            }
+            // right sorted portion
+            else{
+                if(target < nums[mid] || target > nums[r])
+                    r = mid - 1;
+                else
+                    l = mid + 1;
+            }
+        }
+        return -1;
+                     
+    }
+};
