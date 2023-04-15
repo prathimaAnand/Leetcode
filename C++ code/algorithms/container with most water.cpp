@@ -8,7 +8,7 @@ other way - keep left and right pointer at the ends
 compute area at each time and keep the highest one, parallely
 compare the pointers and shift the one that is lower to one point and travse through the entire set
 When left pointer is = right then terminate the operation
-
+*/
 class Solution {
 public:
     int maxArea(vector<int>& height) {
