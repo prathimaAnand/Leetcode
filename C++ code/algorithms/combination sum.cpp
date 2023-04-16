@@ -1,3 +1,10 @@
+/*
+Trick: Use recursion tree instead of brut forcing using decision tree
+Using a tree that do not have duplicates
+We use recursion tree with 2 decisions
+1 decision including 1st digit and 2nd everything else but not 1st digit
+Time - O(2^T)
+*/
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
