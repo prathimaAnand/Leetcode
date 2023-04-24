@@ -1,6 +1,6 @@
-https://leetcode.com/problems/contains-duplicate/submissions/898972162/
+# https://leetcode.com/problems/contains-duplicate/submissions/898972162/
 
-concept: using hashset to save time 
+# concept: using hashset to save time 
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
