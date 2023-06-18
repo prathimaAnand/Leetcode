@@ -13,4 +13,12 @@ public:
     }
 };
 
+//above code can be solved using sorting & then checking adjacent pairs
+// but time: O(nlogn)
+// memory: O(1)
+
 // using hashset as tutorial
+// compromising memory : O(n)
+// time : O(n)
+
+
