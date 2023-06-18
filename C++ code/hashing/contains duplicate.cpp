@@ -21,4 +21,18 @@ public:
 // compromising memory : O(n)
 // time : O(n)
 
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        int n = nums.size();
+        unordered_set<int> hashSet; 
+        for(int i = 0;i<n; i++){
+            if(hashSet.count(nums[i])) //if element is present or not -> can not use 'n' directly like in python
+                return true;
+            hashSet.insert(nums[i]);
+        }
+        return false;
+    }
+};
+
 
