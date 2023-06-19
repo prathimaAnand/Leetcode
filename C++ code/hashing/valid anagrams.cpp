@@ -1,4 +1,3 @@
-
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -10,8 +9,11 @@ public:
             hashS[s[i]] = 1 + hashS[s[i]]; // to update count in hashmap for every character
             hashT[t[i]] = 1 + hashT[t[i]];
         }
-        for (int j : hashS) {
-            if (hashS[s[j]] != hashT[t[j]])
+        for (const auto& pair : hashS) {
+            char character = pair.first; // each val's key is stored in character
+    //         int count = pair.second;
+    // cout << "Character: " << character << ", Count: " << count << endl;
+            if (hashS[character] != hashT[character])
                 return false;
         }
         return true;
