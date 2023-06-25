@@ -1,3 +1,9 @@
+# concept: 
+'''
+Can be solved using sorting but time complexity will be O(nlogn) 
+Using sequence method it can be reduced to O(n)
+'''
+
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         
