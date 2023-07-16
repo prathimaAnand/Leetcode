@@ -18,3 +18,4 @@ class Solution:
             local = local.replace(".","")
             email_set.add((local, domain))
         return len(email_set)
+
