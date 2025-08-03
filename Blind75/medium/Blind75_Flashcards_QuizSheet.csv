@@ -1,0 +1,71 @@
+Category,Problem Name,Data Structure / Pattern,Hint
+Array / Hashing,Two Sum,HashMap,Store complement while iterating
+Array / Hashing,Group Anagrams,HashMap + Sorting,Use sorted string as key
+Array / Hashing,Top K Frequent Elements,HashMap + Heap,"Count freq, use heap"
+Array / Hashing,Product of Array Except Self,Prefix/Postfix,Two-pass no division
+Array / Hashing,Valid Anagram,HashMap / Array[26],Compare character counts
+Array / Hashing,Contains Duplicate,Set,Check while inserting
+Array / Hashing,Encode and Decode Strings,String,Custom delimiter encoding
+Array / Hashing,Longest Consecutive Sequence,Set,Check only starts of streaks
+Two Pointers / Sliding Window,Best Time to Buy/Sell Stock,Two Pointers,Track min price
+Two Pointers / Sliding Window,Valid Palindrome,Two Pointers,Skip non-alphanumeric
+Two Pointers / Sliding Window,3Sum,Two Pointers + Sort,"Fix one, move others inward"
+Two Pointers / Sliding Window,Container With Most Water,Two Pointers,Max area with shrinking window
+Two Pointers / Sliding Window,Longest Substring Without Repeat,Sliding Window + Set,Expand/shrink window
+Two Pointers / Sliding Window,Minimum Window Substring,Sliding Window + HashMap,Count chars needed
+Stack,Valid Parentheses,Stack,"Push on open, pop on close"
+Stack,Daily Temperatures,Stack (Monotonic),Track indices
+Stack,Generate Parentheses,Backtracking + Stack,Open/close balance
+Stack,Car Fleet,Stack,Monotonic decreasing time
+Stack,Evaluate Reverse Polish Notation,Stack,"Push operands, eval on operator"
+Binary Search / Sorted,Binary Search,Binary Search,Classic mid-based search
+Binary Search / Sorted,Search in Rotated Sorted Array,Binary Search,Adjust mid based on rotation
+Binary Search / Sorted,Find Minimum in Rotated Array,Binary Search,Look at mid vs end
+Binary Search / Sorted,Koko Eating Bananas,Binary Search + Math,Min rate to finish in time
+Binary Search / Sorted,Median of Two Sorted Arrays,Binary Search + Partitioning,Divide arrays smartly
+Linked List,Reverse Linked List,Pointers,Iterative or recursive
+Linked List,Merge Two Sorted Lists,Linked List,Dummy head trick
+Linked List,Reorder List,Linked List + Stack,"Find mid, reverse second half"
+Linked List,Linked List Cycle,Two Pointers (Floyd),Fast/slow pointer
+Linked List,Intersection of Two LL,Length diff,"Align heads, walk together"
+Linked List,Remove Nth Node From End,Two Pointers,Advance gap of n
+Linked List,Copy List with Random Pointer,HashMap,Clone with mapping first
+Tree / BST,Invert Binary Tree,DFS,Swap children
+Tree / BST,Max Depth of Binary Tree,DFS/BFS,Recursively compute
+Tree / BST,Diameter of Binary Tree,DFS,Longest path through node
+Tree / BST,Balanced Binary Tree,DFS,Track height and balance
+Tree / BST,Same Tree,DFS,Compare structure/values
+Tree / BST,Subtree of Another Tree,DFS,Match from root or recurse
+Tree / BST,Lowest Common Ancestor,DFS,Recursively check left/right
+Tree / BST,Binary Tree Level Order Traversal,BFS,Queue-based level tracking
+Tree / BST,Binary Tree Right Side View,BFS / DFS,Track last seen at level
+Tree / BST,Construct BT from Preorder & Inorder,DFS + Indexing,Recursively build tree
+Tree / BST,Validate BST,DFS + Bounds,Ensure all left < root < right
+Tree / BST,Kth Smallest in BST,Inorder traversal,Stop at k-th element
+Heap / Priority Queue,Merge K Sorted Lists,Min-Heap,Push head nodes
+Heap / Priority Queue,Top K Frequent Elements,Heap,Max-heap by frequency
+Heap / Priority Queue,Kth Largest in Array,Min-Heap of size k,Pop smallest
+Trie,Implement Trie,Trie,Use TrieNode class
+Trie,Word Search II,Trie + DFS,Prefix pruning
+Graph,Number of Islands,DFS/BFS,Mark visited land
+Graph,Clone Graph,BFS/DFS + Map,Track visited nodes
+Graph,Pacific Atlantic Water Flow,Reverse DFS,Start from borders
+Graph,Course Schedule,Topo Sort,Detect cycle
+Graph,Graph Valid Tree,Union Find / DFS,Ensure acyclic and connected
+Graph,Word Ladder,BFS,Transform one letter at a time
+Dynamic Programming,House Robber,DP,Max of rob or skip
+Dynamic Programming,Climbing Stairs,DP,Fib-style recurrence
+Dynamic Programming,Coin Change,DP,Min coins for amount
+Dynamic Programming,Longest Increasing Subsequence,DP + Binary Search,Patience sort
+Dynamic Programming,Longest Palindromic Substring,DP / Expand Around Center,Center expansion
+Dynamic Programming,Palindromic Substrings,DP,Count while expanding
+Dynamic Programming,Decode Ways,DP,Count decodings at each index
+Dynamic Programming,Unique Paths,DP,Grid traversal count
+Dynamic Programming,Jump Game,Greedy / DP,Track furthest reachable
+Dynamic Programming,Maximum Subarray,Kadane's Algorithm,Max sum subarray
+Backtracking,Permutations,Backtracking,Track used elements
+Backtracking,Subsets,Backtracking,Include/exclude each element
+Backtracking,Word Search,Backtracking,Explore all paths
+Backtracking,Combination Sum,Backtracking,Reuse elements
+Backtracking,Sudoku Solver,Backtracking,Place & recurse
+Backtracking,N-Queens,Backtracking + Constraints,Place queens row-by-row
