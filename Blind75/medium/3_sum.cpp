@@ -34,18 +34,23 @@ public:
             while(l < r){
             int sum = nums[i] + nums[l] + nums[r];
             if(sum > 0){
-                r -= 1;
+                r--;
             }
             else if (sum < 0){
-                l += 1;
+                l++;
             }
             else{
                 res.push_back({nums[i],nums[l], nums[r]});
-                r -= 1;
-                l += 1;
+                l++;
+                r--;
+                
                 while( l < r && nums[l] == nums[l - 1]){
-                    l -= 1;
+                    l--;
                 }
+                while (l < r && nums[r] == nums[r + 1]) {
+                    r--;
+                }
+
             }
             }
         }
